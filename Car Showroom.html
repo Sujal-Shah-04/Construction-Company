@@ -12,27 +12,36 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#featured cars">Featured Cars</a></li>
+                <li><a href="#about">About Us</a></li>
                 <li><a href="#cars">Cars</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     
     <section id="home" class="hero">
+        <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\home page.jpg" alt="Car Showroom">
         <h1>Experience Luxury & Speed</h1>
     </section>
 
-    <section id="featured">
+    <section id="featured cars">
         <h1>Featured Cars</h1>
         <div class="featured-cars">
             <div class="car">
-                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Lamborghini Aventador.jpeg" alt="Featured Car">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Lamborghini Aventador.jpeg" alt="Lamborghini Aventador">
                 <h3>Lamborghini Aventador</h3>
+                <p class="price">$5,000,000</p>
             </div>
             <div class="car">
-                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Ferrari SF90.jpeg" alt="Featured Car">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Ferrari SF90.jpeg" alt="Ferrari SF90">
                 <h3>Ferrari SF90</h3>
+                <p class="price">$4,500,000</p>
+            </div>
+            <div class="car">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Supra Mk4.jpeg" alt="Featured Car">
+                <h3>Supra Mk4</h3>
+                <p class="price">$3,000,000</p>
             </div>
         </div>
     </section>
@@ -63,26 +72,83 @@
             ---
         </p>
     </section>
-    
-    <section id="cars">
-        <h1>Our Collection</h1>
-        <div class="car-gallery">
-            <div class="car-item"><img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Mclaren P1.avif" alt="Car 1"><h3>McLaren P1</h3></div>
-            <div class="car-item"><img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\bugatti-chiron.avif" alt="Car 2"><h3>Bugatti Chiron</h3></div>
-            <div class="car-item"><img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Porsche 911.jpg"alt="Car 3"><h3>Porsche 911</h3></div>
-            <div class="car-item"><img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Rolls Royce.avif" alt="Car 4"><h3>Rolls Royce</h3></div>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Luxury Car Sales</h3>
+                <p>We offer an exclusive selection of luxury and sports cars from top brands.</p>
+            </div>
+            <div class="service">
+                <h3>Car Customization</h3>
+                <p>Get premium modifications and custom enhancements for your dream car.</p>
+            </div>
+            <div class="service">
+                <h3>Financing Options</h3>
+                <p>Flexible financing plans to make luxury car ownership easy.</p>
+            </div>
         </div>
     </section>
     
-    <section id="contact">
-        <h1>Contact Us</h1>
-        <form>
-            <input type="text" placeholder="Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="tel" placeholder="Phone" required>
-            <textarea placeholder="Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    
+    <section id="cars">
+        <h2>Our Collection</h2>
+        <div class="car-gallery">
+            <div class="car-item">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Mclaren P1.avif" alt="McLaren P1">
+                <h3>McLaren P1</h3>
+                <p class="price">$1,200,000</p>
+            </div>
+            <div class="car-item">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\bugatti-chiron.avif" alt="Bugatti Chiron">
+                <h3>Bugatti Chiron</h3>
+                <p class="price">$3,000,000</p>
+            </div>
+            <div class="car-item">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Porsche 911.jpg" alt="Porsche 911">
+                <h3>Porsche 911</h3>
+                <p class="price">$120,000</p>
+            </div>
+            <div class="car-item">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Rolls Royce.avif" alt="Rolls Royce">
+                <h3>Rolls Royce</h3>
+                <p class="price">$400,000</p>
+            </div>
+            <div class="car-item">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Ferrari Laferrari.jpeg" alt="Ferrari LaFerrari">
+                <h3>Ferrari LaFerrari</h3>
+                <p class="price">$1,500,000</p>
+            </div>
+            <div class="car-item">
+                <img src="C:\Users\shahs\Downloads\CUBICLES TASK 4\Aston Martin Valkyrie.jpg" alt="Aston Martin Valkyrie">
+                <h3>Aston Martin Valkyrie</h3>
+                <p class="price">$3,200,000</p>
+            </div>
+        </div>
     </section>
+    
+    
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <!-- Google Maps -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126899.57882053778!2d-122.4194155!3d37.7749295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f3d409b5%3A0x548b50d60b9c7f09!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1646644695042!5m2!1sen!2sin" 
+                width="100%" height="400px" 
+                style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    
 </body>
 </html>
