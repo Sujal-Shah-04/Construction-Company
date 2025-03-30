@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #003366;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column; /* Stack image and text */
+    align-items: center;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto; /* Keeps the aspect ratio */
+    object-fit: cover;
+}
+
+
+.hero-content {
+    padding: 20px;
+    text-align: center;
+    color: black; /* Adjust text color */
+    max-width: 800px; /* Limit width for better readability */
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item img {
+    width: 100%;
+    max-width: 300px; 
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.service-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact, .map-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background: #003366;
+    color: white;
+    cursor: pointer;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 530px;
+    border-radius: 8px;
+    border: 0;
+}
+
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+
+.team {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.team-member {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#about {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+}
+
+#about h2 {
+    font-size: 2.5em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-section h3 {
+    font-size: 1.8em;
+    color: #000000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #012587;
+    padding-bottom: 5px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #ddd;
+    line-height: 1.8;
+    text-align: center;
+    align-content: center;
+}
